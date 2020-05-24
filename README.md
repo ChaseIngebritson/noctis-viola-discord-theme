@@ -1,4 +1,4 @@
-## Nook Inc. Discord Theme
+## Noctis Viola Discord Theme
 
 A Better Discord theme based on the [Noctis Viola VSCode theme](https://github.com/liviuschera/noctis).
 
