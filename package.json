@@ -1,0 +1,55 @@
+{
+  "name": "noctis-viola-discord-theme",
+  "version": "0.1.0",
+  "description": "A Better Discord theme based on the Noctis Viola VSCode theme.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode=development --watch",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaseIngebritson/noctis-viola-discord-theme.git"
+  },
+  "keywords": [
+    "Noctis",
+    "Viola",
+    "Better",
+    "Discord",
+    "Theme"
+  ],
+  "author": "Chase Ingebritson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChaseIngebritson/noctis-viola-discord-theme/issues"
+  },
+  "homepage": "https://github.com/ChaseIngebritson/noctis-viola-discord-theme#readme",
+  "eslint": {
+    "parser": "babel-eslint",
+    "extends": "standard"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "plugins": [
+      "stylelint-scss"
+    ],
+    "ignoreFiles": "dist",
+    "defaultSeverity": "warning"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^3.5.2",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-loader": "^3.0.4",
+    "mini-css-extract-plugin": "^0.8.2",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "stylelint": "^11.1.1",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-scss": "^3.16.1",
+    "stylelint-webpack-plugin": "^1.2.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-fix-style-only-entries": "^0.4.0"
+  }
+}

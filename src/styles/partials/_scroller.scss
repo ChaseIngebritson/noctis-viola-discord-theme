@@ -1,0 +1,12 @@
+.da-scrollerWrap {
+  .da-scroller {
+    &::-webkit-scrollbar-thumb {
+      background-color: #{$darker-purple-color} !important;
+    }
+
+    &::-webkit-scrollbar-track-piece {
+      border: none !important;
+      background: none !important;
+    }
+  }
+}

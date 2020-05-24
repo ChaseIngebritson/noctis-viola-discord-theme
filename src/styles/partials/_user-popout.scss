@@ -1,0 +1,29 @@
+.da-userPopout {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba($dark-purple-color, 0.6);
+
+  .da-headerTop {
+    background-color: var(--background-tertiary);
+  }
+
+  .da-bodyInner {
+    background-color: var(--background-secondary);
+
+    .da-bodyTitle,
+    .da-role {
+      color: #{$white-color};
+    }
+
+    .da-actionButton {
+      border-color: #{$white-color};
+    }
+  }
+
+  .da-footer {
+    background-color: var(--background-primary);
+
+    .da-quickMessage {
+      background-color: var(--background-secondary);
+      border-color: #{$dark-purple-color};
+    }
+  }
+}
