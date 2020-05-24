@@ -1,0 +1,56 @@
+.theme-dark {
+  .container-3ayLPN {
+    background-color: var(--background-primary);
+  }
+
+  .da-queryContainer {
+    background-color: var(--background-secondary);
+  }
+
+  .da-option {
+    &::after {
+      background: none;
+    }
+
+    &.da-selected {
+      background-color: var(--background-tertiary);
+
+      &::after {
+        background: none;
+      }
+    }
+  }
+
+  .da-datePicker {
+    .da-calendarPicker {
+      .react-datepicker {
+        background-color: var(--background-primary);
+
+        &__header {
+          background-color: var(--background-primary);
+        }
+
+        &__day {
+          &:hover {
+            background-color: var(--interactive-hover);
+          }
+
+          &--outside-month,
+          &--disabled {
+            background-color: var(--background-tertiary) !important;
+          }
+        }
+      }
+    }
+
+    .da-datePickerHint {
+      .da-hintValue {
+        background-color: var(--interactive-normal);
+
+        &:hover {
+          background-color: var(--interactive-hover);
+        }
+      }
+    }
+  }
+}
