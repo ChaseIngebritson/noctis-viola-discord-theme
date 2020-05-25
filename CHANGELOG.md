@@ -13,3 +13,11 @@
 - Search popout styling
 ### Fixed
 - Resolved missing home background color
+
+## v0.3.0
+### Added
+- BD settings styles
+### Fixed
+- Missing guild BD pub style
+- Missing calendar picker selected accent
+- Resolved a few missing variable styles

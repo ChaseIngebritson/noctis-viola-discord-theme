@@ -13,14 +13,14 @@
   --background-secondary: #{$darker-purple-color};
   --background-secondary-alt: #{$dark-purple-color};
   --background-tertiary: #{$dark-purple-color};
-  --background-accent: #4f545c;
+  --background-accent: #{$middle-purple-color};
   --background-floating: #18191c;
   --background-mobile-primary: #36393f;
   --background-mobile-secondary: #2f3136;
   --background-mobile-header: #2f3136;
-  --background-modifier-hover: rgba(79, 84, 92, 0.16);
-  --background-modifier-active: rgba(79, 84, 92, 0.24);
-  --background-modifier-selected: rgba(79, 84, 92, 0.32);
+  --background-modifier-hover: #{$dark-purple-color};
+  --background-modifier-active: #{$middle-purple-color};
+  --background-modifier-selected: #{$middle-purple-color};
   --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
   --background-mentioned: rgba(250, 166, 26, 0.05);
   --background-mentioned-hover: rgba(250, 166, 26, 0.08);
@@ -37,7 +37,7 @@
   --deprecated-card-bg: rgba(32, 34, 37, 0.6);
   --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
   --deprecated-store-bg: #36393f;
-  --deprecated-quickswitcher-input-background: #72767d;
+  --deprecated-quickswitcher-input-background: #{$middle-purple-color};
   --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
   --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
   --deprecated-text-input-border: rgba(0, 0, 0, 0.3);

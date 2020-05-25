@@ -39,6 +39,12 @@
           &--disabled {
             background-color: var(--background-tertiary) !important;
           }
+
+          &--selected {
+            &::after {
+              background-color: var(--interactive-hover);
+            }
+          }
         }
       }
     }

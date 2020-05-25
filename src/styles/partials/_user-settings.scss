@@ -1,0 +1,27 @@
+.layer-3QrUeG {
+  #bd-settings-sidebar {
+    .ui-tab-bar-header {
+      color: var(--interactive-normal);
+    }
+
+    .ui-tab-bar-item {
+      color: var(--interactive-normal);
+      margin-bottom: 2px;
+
+      &.selected,
+      &:active {
+        color: var(--interactive-active);
+        background-color: var(--background-modifier-selected) !important;
+      }
+
+      &:hover {
+        color: var(--interactive-active);
+        background-color: var(--background-modifier-hover);
+      }
+    }
+
+    .bd-icon {
+      fill: var(--interactive-normal);
+    }
+  }
+}
