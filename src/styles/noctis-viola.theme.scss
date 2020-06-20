@@ -3,12 +3,17 @@
 @import 'modules/mixins';
 
 // Partials
+@import 'partials/better-formatting-popout';
 @import 'partials/chat';
+@import 'partials/checkbox';
 @import 'partials/guilds';
 @import 'partials/home';
+@import 'partials/modal';
 @import 'partials/search-popout';
 @import 'partials/scroller';
 @import 'partials/shaker';
 @import 'partials/theme';
+@import 'partials/tooltip';
+@import 'partials/upload-modal';
 @import 'partials/user-popout';
 @import 'partials/user-settings';

@@ -21,3 +21,13 @@
 - Missing guild BD pub style
 - Missing calendar picker selected accent
 - Resolved a few missing variable styles
+
+## v0.4.0
+### Added
+- Support for the Better Formatting Redux plugin
+- Tooltip styles
+- Modal styles
+- Checkbox styles
+### Fixed
+- Incorrect user popout background selector
+- Incorrectly selected guild icon svg

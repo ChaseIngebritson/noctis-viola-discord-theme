@@ -1,0 +1,10 @@
+.theme-dark {
+  .da-tooltip {
+    background-color: var(--background-secondary);
+    color: var(--interactive-normal);
+
+    .da-tooltipPointer {
+      border-top-color: var(--background-secondary);
+    }
+  }
+}

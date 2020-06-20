@@ -1,0 +1,14 @@
+.theme-dark {
+  .da-checkbox {
+    border-color: var(--interactive-normal);
+
+    &.da-checked {
+      border-color: var(--interactive-active) !important;
+      background-color: var(--interactive-active);
+
+      polyline {
+        stroke: var(--background-primary);
+      }
+    }
+  }
+}

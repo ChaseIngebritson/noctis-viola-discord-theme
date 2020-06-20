@@ -1,7 +1,7 @@
 .da-scrollerWrap {
   .da-scroller {
     &::-webkit-scrollbar-thumb {
-      background-color: #{$darker-purple-color} !important;
+      background-color: var(--background-secondary) !important;
     }
 
     &::-webkit-scrollbar-track-piece {
