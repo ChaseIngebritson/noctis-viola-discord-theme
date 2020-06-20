@@ -31,3 +31,7 @@
 ### Fixed
 - Incorrect user popout background selector
 - Incorrectly selected guild icon svg
+
+## v0.4.1
+### Fixed
+- Fixed the background of the user popout for users playing something

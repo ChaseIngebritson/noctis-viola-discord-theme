@@ -5,7 +5,7 @@
     background-color: var(--background-tertiary);
   }
 
-  .da-body {
+  > .da-body {
     background-color: var(--background-secondary);
 
     .da-bodyTitle,
@@ -24,6 +24,12 @@
     .da-quickMessage {
       background-color: var(--background-secondary);
       border-color: #{$dark-purple-color};
+    }
+  }
+
+  .da-headerPlaying {
+    .da-activityUserPopout {
+      background-color: var(--interactive-active);
     }
   }
 }
