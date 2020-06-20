@@ -17,7 +17,7 @@ module.exports = {
       ignoreOrder: false, // Enable to remove warnings about conflicting order
     }),
     new webpack.BannerPlugin({
-      banner: `//META{"name":"${package.name}","description":"${package.description}","author":"${package.author}","version":"${package.version}","website":"${package.homepage}"}*//\n`,
+      banner: `//META{"name":"${package.name}","description":"${package.description}","author":"${package.author}","authorId":"${package.authorId}","version":"${package.version}","website":"${package.homepage}"}*//\n`,
       raw: true,
       include: 'noctis-viola.theme.css'
     }),

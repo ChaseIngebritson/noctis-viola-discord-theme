@@ -33,5 +33,8 @@
 - Incorrectly selected guild icon svg
 
 ## v0.4.1
+### Added
+- Included the header image in the file structure
+- Included my author ID in the project
 ### Fixed
 - Fixed the background of the user popout for users playing something
