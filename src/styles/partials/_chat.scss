@@ -10,5 +10,9 @@
     &::before {
       border-color: var(--text-muted);
     }
+
+    .da-repliedTextPreview .da-markup {
+      color: var(--text-muted);
+    }
   }
 }
