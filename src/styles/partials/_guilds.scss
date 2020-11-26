@@ -5,7 +5,7 @@
       overflow: hidden;
       box-shadow: var(--elevation-stroke), var(--elevation-high);
 
-      a.da-wrapper {
+      .da-wrapper {
         &::before {
           content: "";
           position: absolute;

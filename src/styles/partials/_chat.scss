@@ -5,4 +5,10 @@
       background-color: transparent !important;
     }
   }
+
+  .da-repliedMessage {
+    &::before {
+      border-color: var(--text-muted);
+    }
+  }
 }
