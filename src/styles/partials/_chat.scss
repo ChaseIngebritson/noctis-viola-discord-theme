@@ -1,4 +1,4 @@
-.da-chat {
+.chat-3bRxxu {
   .da-search {
     .da-searchFilter,
     .da-searchAnswer {
@@ -6,13 +6,21 @@
     }
   }
 
-  .da-repliedMessage {
+  .repliedMessage-VokQwo {
     &::before {
       border-color: var(--text-muted);
     }
 
-    .da-repliedTextPreview .da-markup {
+    .repliedTextPreview-2NBljf .markup-2BOw-j {
       color: var(--text-muted);
+    }
+  }
+
+  .autocomplete-1vrmpx {
+    background-color: var(--background-tertiary);
+
+    .autocompleteRow-2OthDa .selected-1Tbx07 {
+      background-color: var(--background-primary);
     }
   }
 }

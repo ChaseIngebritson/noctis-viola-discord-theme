@@ -4,8 +4,8 @@
   "description": "A Better Discord theme based on the Noctis Viola VSCode theme.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode=development --watch",
-    "build": "webpack --mode=production",
+    "start": "webpack --mode=development --config webpack.dev.js --watch",
+    "build": "webpack --mode=production --config webpack.prod.js",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
@@ -30,14 +30,6 @@
     "parser": "babel-eslint",
     "extends": "standard"
   },
-  "stylelint": {
-    "extends": "stylelint-config-standard",
-    "plugins": [
-      "stylelint-scss"
-    ],
-    "ignoreFiles": "dist",
-    "defaultSeverity": "warning"
-  },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^5.0.2",
@@ -53,6 +45,7 @@
     "stylelint-webpack-plugin": "^2.1.1",
     "webpack": "^5.22.0",
     "webpack-cli": "^4.5.0",
-    "webpack-fix-style-only-entries": "^0.6.1"
+    "webpack-fix-style-only-entries": "^0.6.1",
+    "webpack-merge": "^5.7.3"
   }
 }

@@ -37,10 +37,6 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 module.exports = {
-  entry: {
-    "noctis-viola": "./src/styles/noctis-viola.theme.scss",
-    "noctis-viola.theme": "./src/import.scss"
-  },
   plugins,
   module: {
     rules: [
