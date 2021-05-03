@@ -1,11 +1,21 @@
-## Noctis Viola Discord Theme
+# Noctis Viola Discord Theme
 
 A Better Discord theme based on the [Noctis Viola VSCode theme](https://github.com/liviuschera/noctis).
 
-![screenshot](https://i.imgur.com/N00HoWL.png)
+![Screenshot of theme](https://i.imgur.com/O0Ygeaj.png)
 
-### [Installation](https://github.com/ChaseIngebritson/noctis-viola-discord-theme/releases/latest)
+## [Installation](https://github.com/ChaseIngebritson/noctis-viola-discord-theme/releases/latest)
+
 The most recent release can be downloaded from [the releases page](https://github.com/ChaseIngebritson/noctis-viola-discord-theme/releases/latest). Just copy the CSS file into your BetterDiscord themes folder.
 
-#### Disclaimer
+## Plugin Support
+
+Below is a list of known supported plugins.
+
+* [BetterFormattingRedux](https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/BetterFormattingRedux)
+
+![BetterFormattingRedux screenshot](https://i.imgur.com/dlxtf69.png)
+
+## Disclaimer
+
 This project is in no way related to the Noctis Viola VSCode theme.
