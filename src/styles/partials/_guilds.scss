@@ -39,7 +39,19 @@
     }
   }
 
-  #bd-pub-button {
-    background-color: var(--background-accent);
+  #bd-pub-li {
+    height: 18px;
+
+    #bd-pub-button {
+      background-color: var(--background-accent);
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+
+  .pill-1z4sAY {
+    .item-2hkk8m {
+      background-color: var(--interactive-active);
+    }
   }
 }
