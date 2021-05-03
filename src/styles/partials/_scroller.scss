@@ -1,16 +1,7 @@
-.da-scroller {
-  &::-webkit-scrollbar-track-piece {
-    border: none !important;
-    background: none !important;
-  }
-
-  &::-webkit-scrollbar-track {
-    background-color: var(--background-tertiary);
-  }
-
+.scroller-2LSbBU, // Chat scroll
+.scrollerBase-289Jih, // People list
+.contentRegionScroller-26nc1e /* Settings scroll */ {
   &::-webkit-scrollbar-thumb {
-    background-color: var(--interactive-normal) !important;
-
     &:hover {
       background-color: var(--interactive-hover) !important;
     }

@@ -44,4 +44,11 @@
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: #202225;
   --deprecated-text-input-prefix: #dcddde;
+  --radio-group-dot-foreground: #{$light-purple-color};
+  --scrollbar-thin-thumb: #{$white-color};
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: #{$white-color};
+  --scrollbar-auto-track: #{$dark-purple-color};
+  --scrollbar-auto-scrollbar-color-thumb: #{$white-color};
+  --scrollbar-auto-scrollbar-color-track: #{$dark-purple-color};
 }
