@@ -1,11 +1,12 @@
-.guilds-1SWlCJ {
-  .tutorialContainer-2sGCg9 {
+.guilds-2JjMmN {
+  // Discord logo
+  .tutorialContainer-1pL9QS {
     svg {
       border-radius: 50%;
       overflow: hidden;
       box-shadow: var(--elevation-stroke), var(--elevation-high);
 
-      .wrapper-1BJsBx {
+      .wrapper-3kah-n {
         &::before {
           content: "";
           position: absolute;
@@ -39,19 +40,24 @@
     }
   }
 
-  #bd-pub-li {
-    height: 18px;
+  // Custom BD public button
+  #bd-pub-button {
+    background-color: var(--background-accent);
+    font-size: 12px;
+    line-height: 18px;
+  }
 
-    #bd-pub-button {
-      background-color: var(--background-accent);
-      font-size: 12px;
-      line-height: 18px;
+  // Unread pill
+  .pill-2RsI5Q {
+    .item-2LIpTv {
+      background-color: var(--interactive-active);
     }
   }
 
-  .pill-1z4sAY {
-    .item-2hkk8m {
-      background-color: var(--interactive-active);
+  // Unread glow
+  .bd-unread {
+    svg {
+      filter: drop-shadow(0 0 4px var(--interactive-active));
     }
   }
 }

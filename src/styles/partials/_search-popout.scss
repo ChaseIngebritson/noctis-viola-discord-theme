@@ -1,13 +1,18 @@
 .theme-dark {
-  .container-3ayLPN {
+  .container-2McqkF {
     background-color: var(--background-primary);
   }
 
-  .da-queryContainer {
+  .queryContainer-ZunrLZ {
     background-color: var(--background-secondary);
+
+    .dim-2Uxgxb span {
+      background-color: var(--background-accent);
+      color: var(--text-normal);
+    }
   }
 
-  .da-option {
+  .option-ayUoaq {
     &::after {
       background: none;
     }
@@ -18,6 +23,17 @@
       &::after {
         background: none;
       }
+    }
+
+    .answer-14OVbQ,
+    .displayUsername-UTerwm {
+      color: var(--text-muted) !important;
+    }
+
+    .filter-2QaH9y,
+    .searchResultChannelCategory-19ujDo,
+    .searchResultChannelIcon-C-3P9x {
+      color: var(--text-normal);
     }
   }
 
